@@ -3,35 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <title>MASTERDO - Todo Application</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>LIST MASTER</h1>
-    </header>
+    <div id="app">
+        <!-- All content will be dynamically loaded here -->
+    </div>
 
-    <main>
-        <div class="categories">
-            <h2>Categories</h2>
-            <input type="text" placeholder="Add Category" id="newCategoryInput">
-            <button id="addCategoryButton">Add</button>
-            <ul id="categoryList">
-                <li class="category-item active" data-list-id="daily">Daily List</li>
-                <li class="category-item" data-list-id="groceries">Groceries</li>
-                <li class="category-item" data-list-id="travel">Travel</li>
-            </ul>
-        </div>
-
-        <div class="todo-list">
-            <h2>To-Do List</h2>
-            <input type="text" placeholder="Add Task" id="newTaskInput">
-            <button id="addTaskButton">Add</button>
-            <ul id="taskList" data-list-id="daily">
-                <!-- Tasks will be rendered here -->
-            </ul>
-        </div>
-    </main>
-    <script src="toDo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="router.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
