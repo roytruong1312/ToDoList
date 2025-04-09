@@ -16,6 +16,11 @@ This is a simple To-Do List application that allows users to manage their tasks.
 ## Usage
 Start the application: `npm start`
 
+## Output
+![Screenshot 2025-04-09 120925](https://github.com/user-attachments/assets/03589a67-e642-4d52-be2f-17d1bf080507)
+![Screenshot 2025-04-09 121108](https://github.com/user-attachments/assets/ee9aca74-441d-4c94-b8c4-d6783d26ce69)
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
